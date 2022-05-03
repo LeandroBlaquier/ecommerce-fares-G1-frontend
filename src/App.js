@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
-
+import Product from "./components/modelProduct";
 function App() {
   return (
     <div className="App">
-      <h1>hola mundo</h1>
+      {/* <h1>hola mundo</h1> */}
+      <Product />
     </div>
   );
 }
