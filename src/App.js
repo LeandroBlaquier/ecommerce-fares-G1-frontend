@@ -1,11 +1,12 @@
 import Product from "./components/modelProduct";
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      {/* <h1>hola mundo</h1> */}
+      <h1>hola mundo</h1>
       <Product />
     </div>
   );
-}
+};
 
 export default App;
