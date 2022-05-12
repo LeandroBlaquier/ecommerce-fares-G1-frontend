@@ -1,17 +1,12 @@
 
-// import Product from "./components/Product";
-import HomePage from "./pages/HomePage";
 import AppRoute from "./routes/appRoute";
-function App() {
+const App = () => {
   return (
     <>
-      
-      <HomePage />
-        {/* <NavBar /> */}
-        <AppRoute />
-      
+
+      <AppRoute />
     </>
   );
-}
+};
 
 export default App;
