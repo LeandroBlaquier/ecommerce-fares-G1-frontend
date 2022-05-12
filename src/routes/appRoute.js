@@ -1,16 +1,26 @@
-import { Routes, Route } from "react-router-dom";
-import Product from "../components/Product";
-
-const AppRoute = () => {
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import HomePage from "../pages/HomePage";
+import AboutPage from "../pages/AboutPage";
+import ContactPage from "../pages/ContacsPage";
+import ProductsPage from "../pages/ProductsPage";
+import ProductPage from "../pages/ProductPage";
+import NotFound from "../pages/NotFound";
+const App = () => {
   return (
-    <>
-      {/* inserte su ruta sin modificar la de otros porfavor */}
+    <Router>
+      {/* esto mas adelante debe ser modificado */}
+      <Navbar />
       <Routes>
-        <Route path="/" />
-        <Route path="/products/:id" component={Product} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/products" element={<ProductsPage />} />
+        <Route path="/products:id" element={<ProductPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-    </>
+    </Router>
   );
 };
 
-export default AppRoute;
+export default App;
