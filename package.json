@@ -4,14 +4,22 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.0.0",
+<<<<<<< HEAD
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+=======
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.7.0",
+>>>>>>> 4ea80c0a154abf035f54a86195b12b2d1f21fd3b
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "framer-motion": "^6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-icons": "^4.3.1",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
