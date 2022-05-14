@@ -1,8 +1,14 @@
 import AppRoute from "./routes/appRoute";
+import { ChakraProvider } from "@chakra-ui/react";
+import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <>
-      <AppRoute />
+      <ChakraProvider>
+        {/* esto mas adelante debe ser modificado */}
+        <Navbar />
+        <AppRoute />
+      </ChakraProvider>
     </>
   );
 };
