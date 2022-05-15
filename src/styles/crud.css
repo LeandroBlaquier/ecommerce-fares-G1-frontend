@@ -1,4 +1,9 @@
 /* CRUD TABLE START */
+.background{
+  background: url(../assests/hero.png);
+  background-size: cover;
+  height: 100vh;
+}
 .crud-modal-wrapper {
     position: absolute;
     top: 0;

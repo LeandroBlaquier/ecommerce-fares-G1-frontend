@@ -71,7 +71,9 @@ const styles = {
 };
 
 const Example = () => (
-  <div style={styles.container}>
+  <div className='background'>
+
+    <div style={styles.container}>
     <CRUDTable
       caption="Ingredientes"
       fetchItems={payload => service.fetchItems(payload)}
@@ -154,6 +156,7 @@ const Example = () => (
         }}
       />
     </CRUDTable>
+  </div>
   </div>
 );
 
