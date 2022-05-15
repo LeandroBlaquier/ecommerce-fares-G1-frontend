@@ -7,7 +7,7 @@ import CRUDTable,
   UpdateForm,
   DeleteForm,
 } from 'react-crud-table';
- import './crud.css'
+ import '../styles/crud.css'
 
 const DescriptionRenderer = ({ field }) => <textarea {...field} />;
 
