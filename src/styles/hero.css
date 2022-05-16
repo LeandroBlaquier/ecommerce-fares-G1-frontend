@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
   }
-  .content button{
+  .content-link{
     border: 1px solid rgb(81, 2, 155);
     border-radius: 15px;
     background-color:rgb(120, 48, 192);
