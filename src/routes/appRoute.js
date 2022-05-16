@@ -5,6 +5,7 @@ import ContactPage from "../pages/ContacsPage";
 import ProductsPage from "../pages/ProductsPage";
 import ProductPage from "../pages/ProductPage";
 import NotFound from "../pages/NotFound";
+
 const App = () => {
   return (
     <Router>

@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <>
+      {/* esto mas adelante debe ser modificado */}
       <ChakraProvider>
-        {/* esto mas adelante debe ser modificado */}
         <Navbar />
         <AppRoute />
       </ChakraProvider>
