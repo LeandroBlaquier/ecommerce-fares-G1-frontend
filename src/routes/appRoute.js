@@ -6,11 +6,13 @@ import ProductsPage from "../pages/ProductsPage";
 import ProductPage from "../pages/ProductPage";
 import NotFound from "../pages/NotFound";
 import Catalogue from "../pages/Catalogue";
+import Crud from "../pages/Crud";
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/Inventary" element={<Crud />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/catalogue" element={<Catalogue />} />
         <Route path="/products/:id" element={<ProductPage />} />

@@ -1,14 +1,21 @@
 import React from "react";
-// import ProductSimple from "../components/ProductCard";
-import ProductCards from "./ProductsPage";
-
-const Catalogue = ({ title, price, imgCards, category }) => {
+import Combos from "../data/Combos";
+import Ofertas from "../data/Ofertas";
+import Bebidas from "../data/Bebidas";
+import Hamburguesas from "../data/Hamburguesas";
+import Sandwiches from "../data/Sandwiches";
+import Pizzas from "../data/Pizzas";
+import "../styles/Catalogue.css";
+const Catalogue = () => {
   return (
-    <>
-      <h1>Catalogo</h1>
-      {/* <ProductSimple /> */}
-      <ProductCards />
-    </>
+    <div className="fondo">
+      <Ofertas />
+      <Combos />
+      <Bebidas />
+      <Hamburguesas />
+      <Sandwiches />
+      <Pizzas />
+    </div>
   );
 };
 

@@ -1,8 +1,7 @@
+import Hero from "./Hero";
 const HomePage = () => {
   return (
-    <div>
-      <h2>AQUI SE ENCUENTRA LA MAS HERMOSA HOMEPAGE</h2>
-    </div>
+    <Hero/>
   );
 };
 
