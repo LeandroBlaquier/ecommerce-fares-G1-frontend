@@ -26,7 +26,7 @@ const App = () => {
     lg: true,
   });
   return (
-    <Box bg={"gray.400"} zIndex={"overlay"} as="section">
+    <Box bg={"transparent"} zIndex={"overlay"} as="section">
       <Box
         as="nav"
         bg="bg-surface"
