@@ -1,30 +1,26 @@
-const ProductPage = () => {
-  return <div>Aqui se visualizara el producto por el id recibido</div>;
+import { Container, Grid } from "@chakra-ui/react";
+import { useLocation } from "react-router";
+import ProductDetails from "../components/ProductDetails";
+
+const ProductCard = () => {
+  const location = useLocation();
+  const { title, description, price, image, category } = location.state; //const data = location.state?.data;
+  // console.log(title, description, price, IMG, category);
+  return (
+    <Container maxW={"90%"}>
+      <Grid
+        gridTemplateColumns="repeat(auto-fill, minmax(300px,1fr))"
+        gap="1.9rem"
+      >
+        <ProductDetails
+          title={title}
+          category={category}
+          description={description}
+          price={price}
+          image={image}
+        />
+      </Grid>
+    </Container>
+  );
 };
-
-export default ProductPage;
-// import { Container, Grid } from "@chakra-ui/react";
-// import Product from "../components/Product";
-// import { contentCards } from "../data/ContentCards";
-
-// const ProductCards = () => {
-//   return (
-//     <Container maxW={"90%"}>
-//       <Grid
-//         gridTemplateColumns="repeat(auto-fill, minmax(300px,1fr))"
-//         gap="1.9rem"
-//       >
-//         {contentCards.map((cards) => (
-//           <Product
-//             key={cards.id}
-//             title={cards.title}
-//             description={cards.description}
-//             price={cards.price}
-//             imgCards={cards.IMG}
-//           />
-//         ))}
-//       </Grid>
-//     </Container>
-//   );
-// };
-// export default ProductCards;
+export default ProductCard;

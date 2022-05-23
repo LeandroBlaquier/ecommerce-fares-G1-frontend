@@ -32,16 +32,11 @@ const App = () => {
         bg="bg-surface"
         boxShadow={useColorModeValue("sm", "sm-dark")}
       >
-        <Container
-          py={{
-            base: "3",
-            lg: "4",
-          }}
-        >
+        <Container>
           <HStack justify="space-around">
             <img src={Logo} alt="" height={"60px"} width={"50px"} />
             {isDesktop ? (
-              <Flex justify="space-between" flex="1">
+              <Flex justify="space-between" gap={"100px"}>
                 <ButtonGroup variant="link" spacing="20">
                   {menuItems.map((item) => (
                     <Button variant={"ghost"}>
@@ -49,7 +44,7 @@ const App = () => {
                     </Button>
                   ))}
                 </ButtonGroup>
-                <HStack spacing="6">
+                <HStack spacing="10">
                   <Button variant="ghost">
                     <a href="/signup">Iniciar sesion</a>
                   </Button>

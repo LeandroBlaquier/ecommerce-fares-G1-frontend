@@ -11,7 +11,7 @@ import {
   Badge,
 } from "@chakra-ui/react";
 
-const ProductSimple = ({ title, price, imgCards, category }) => {
+const ProductCard = ({ title, price, image, category }) => {
   return (
     <Center py={12}>
       <Box
@@ -38,7 +38,7 @@ const ProductSimple = ({ title, price, imgCards, category }) => {
             pos: "absolute",
             top: 5,
             left: 0,
-            backgroundImage: imgCards,
+            backgroundImage: image,
             backgroundPosition: "center",
             filter: "blur(15px)",
             zIndex: -1,
@@ -54,7 +54,7 @@ const ProductSimple = ({ title, price, imgCards, category }) => {
             height={230}
             width={282}
             objectFit={"cover"}
-            src={imgCards}
+            src={image}
           />
         </Box>
         <Badge borderRadius="full" px="2" colorScheme="green">
@@ -79,6 +79,7 @@ const ProductSimple = ({ title, price, imgCards, category }) => {
           py={2}
           roundedBottom="lg"
         >
+          {/* <Link to={`/products/${id}`}> */}
           <chakra.button
             px={2}
             py={1}
@@ -97,6 +98,7 @@ const ProductSimple = ({ title, price, imgCards, category }) => {
           >
             Comprar
           </chakra.button>
+          {/* </Link> */}
           <chakra.button
             px={2}
             py={1}
@@ -120,4 +122,4 @@ const ProductSimple = ({ title, price, imgCards, category }) => {
     </Center>
   );
 };
-export default ProductSimple;
+export default ProductCard;

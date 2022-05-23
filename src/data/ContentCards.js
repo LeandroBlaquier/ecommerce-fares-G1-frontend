@@ -1,11 +1,11 @@
-export const contentCards = [
+const contentCards = [
   {
     id: 1,
     category: "Ofertas",
     title: "Buen tipo",
     description: "Es papucho, su cara esta tallada por los mismos angeles",
     price: "80.000",
-    IMG: "https://avatars.githubusercontent.com/u/38986277?v=4",
+    image: "https://avatars.githubusercontent.com/u/38986277?v=4",
   },
   {
     id: 2,
@@ -14,7 +14,8 @@ export const contentCards = [
     description:
       "Monitor para juegos ASUS VP249QGR: 23.8 pulgadas, Full HD, IPS, sin marco, 1ms MPRT, 144Hz, Adaptive-Sync (FreeSync™), ELMB, Shadow Boost, Low Blue Light, Flicker Free, montaje en pared",
     price: "5",
-    IMG: "https://i.pinimg.com/564x/60/1c/0c/601c0ca349b3c229917b8b16612acf6a.jpg",
+    image:
+      "https://i.pinimg.com/564x/60/1c/0c/601c0ca349b3c229917b8b16612acf6a.jpg",
   },
   {
     id: 3,
@@ -23,7 +24,8 @@ export const contentCards = [
     description:
       "corrigen los problemas de la columna con ciencia ergonómica simple. En lugar de que su columna vertebral sostenga su cuerpo contra la gravedad, las sillas de juego hacen el trabajo por usted. Un respaldo alto acolchado con cojines lumbares y para el cuello un soporte principal",
     price: "67.499",
-    IMG: "https://www.armytech.com.ar/Image/0/500_500--CF-9010003-WW-Gallery-Chair-RED-03.png",
+    image:
+      "https://www.armytech.com.ar/Image/0/500_500--CF-9010003-WW-Gallery-Chair-RED-03.png",
   },
   {
     id: 4,
@@ -32,7 +34,7 @@ export const contentCards = [
     description:
       "GABINETE ATX IC3 ADVENTURE EDITION ICE 1 COOLER RGB COOLER FAN INCLUIDO: x1 RGB 120 TRASERO LATERAL: VIDRIO TEMPLADO",
     price: "6.599",
-    IMG: "https://www.armytech.com.ar/Image/0/500_500-IC3_1.jpeg",
+    image: "https://www.armytech.com.ar/Image/0/500_500-IC3_1.jpeg",
   },
   {
     id: 5,
@@ -42,7 +44,8 @@ export const contentCards = [
     description:
       "Gabinete gamer con triple Cooler Frontal de iluminación roja y ventana lateral para mantener tus componentes refrigerados y a la vista. El Magnum Tech MT-435R negro con lateral transparente de acrílico, es un gabinete gamer que posee un precio accesible",
     price: "80.000",
-    IMG: "https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098_960_720.jpg",
+    image:
+      "https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098_960_720.jpg",
   },
   {
     id: 6,
@@ -51,7 +54,7 @@ export const contentCards = [
     description:
       "GABINETE ATX IC3 ADVENTURE EDITION ICE 1 COOLER RGB COOLER FAN INCLUIDO: x1 RGB 120 TRASERO LATERAL: VIDRIO TEMPLADO",
     price: "6.599",
-    IMG: "https://www.armytech.com.ar/Image/0/500_500-IC3_1.jpeg",
+    image: "https://www.armytech.com.ar/Image/0/500_500-IC3_1.jpeg",
   },
   {
     id: 7,
@@ -60,7 +63,8 @@ export const contentCards = [
     description:
       "Hamburguesa con pan integral lechuga ,tomate, queso cheddar ,cebolla caramelizada y papas fritas con una gaseosa coca-cola de 500ml",
     price: "100",
-    IMG: "https://thebeerfood.com/wp-content/uploads/2021/07/Hamburguesa-tradicional-combo.jpg",
+    image:
+      "https://thebeerfood.com/wp-content/uploads/2021/07/Hamburguesa-tradicional-combo.jpg",
   },
   {
     id: 8,
@@ -69,7 +73,8 @@ export const contentCards = [
     description:
       "3 Hamburguesas con 3 vasos de 600ml de coca-cola y 4 porciones de papas + una porcion de nuggets",
     price: "16.99",
-    IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO70j79-CILjhmB0dFT0gxOJlNgRRgAiOzj_FPAcCSpa5adQMwhO2jPk17fV6DNOEblMs&usqp=CAU",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO70j79-CILjhmB0dFT0gxOJlNgRRgAiOzj_FPAcCSpa5adQMwhO2jPk17fV6DNOEblMs&usqp=CAU",
   },
   {
     id: 9,
@@ -77,7 +82,8 @@ export const contentCards = [
     title: "PEPSI",
     description: "Gaseosa Pepsi 3lts",
     price: "10",
-    IMG: "https://atomoconviene.com/atomo-ecommerce/55974-home_default/gaseosas-pepsi---3000-cc--.jpg",
+    image:
+      "https://atomoconviene.com/atomo-ecommerce/55974-home_default/gaseosas-pepsi---3000-cc--.jpg",
   },
   {
     id: 10,
@@ -85,46 +91,52 @@ export const contentCards = [
     title: "Coca-cola",
     description: "Gaseosa Coca-cola de 1.5 lts sin azucar",
     price: "1.54",
-    IMG: "https://depotexpress.com.ar/tienda/wp-content/uploads/2020/06/GASEOSA-COCA-COLA-PET-X-1.5.png",
+    image:
+      "https://depotexpress.com.ar/tienda/wp-content/uploads/2020/06/GASEOSA-COCA-COLA-PET-X-1.5.png",
   },
   {
-    id: 10,
+    id: 11,
     category: "Hamburguesas",
     title: "Hambur",
     description: "la mas rica de todas",
     price: "GRATIS",
-    IMG: "https://www.mostazaweb.com.ar/wp-content/uploads/2020/08/07.jpg",
+    image: "https://www.mostazaweb.com.ar/wp-content/uploads/2020/08/07.jpg",
   },
   {
-    id: 11,
+    id: 12,
     category: "Pizzas",
     title: "Pizza Margarita",
     description: "Pizza con salsa de tomate 4 quesos y rucula ",
     price: "1000",
-    IMG: "https://static-sevilla.abc.es/media/gurmesevilla/2013/04/pizza-margarita.jpg",
+    image:
+      "https://static-sevilla.abc.es/media/gurmesevilla/2013/04/pizza-margarita.jpg",
   },
   {
-    id: 12,
+    id: 13,
     category: "Bebidas",
     title: "Seven-Up",
     description: "Gaseosa SevenUp en Lata 354cc",
     price: "GRATIS pa vo",
-    IMG: "https://ardiaprod.vteximg.com.br/arquivos/ids/184810-500-500/Gaseosa-Seven-Up-Lima-en-Lata-354-ml-_1.jpg?v=637427551442370000",
-  },
-  {
-    id: 13,
-    category: "Hamburguesas",
-    title: "Mega DOBLE-CUARTO",
-    description: "Hambur gigante",
-    price: "500",
-    IMG: "https://i0.wp.com/www.buenosbares.com/wp-content/uploads/2021/04/MOSTAZA_-MEGA-BOOM_1.jpg?fit=1187%2C1483",
+    image:
+      "https://ardiaprod.vteximg.com.br/arquivos/ids/184810-500-500/Gaseosa-Seven-Up-Lima-en-Lata-354-ml-_1.jpg?v=637427551442370000",
   },
   {
     id: 14,
     category: "Hamburguesas",
+    title: "Mega DOBLE-CUARTO",
+    description: "Hambur gigante",
+    price: "500",
+    image:
+      "https://i0.wp.com/www.buenosbares.com/wp-content/uploads/2021/04/MOSTAZA_-MEGA-BOOM_1.jpg?fit=1187%2C1483",
+  },
+  {
+    id: 15,
+    category: "Hamburguesas",
     title: "MEGA-CUARTO",
     description: "Hambur mediana",
     price: "300",
-    IMG: "https://www.mostazaweb.com.ar/wp-content/uploads/2021/08/Mesa-de-trabajo-1-copia-7-100.jpg",
+    image:
+      "https://www.mostazaweb.com.ar/wp-content/uploads/2021/08/Mesa-de-trabajo-1-copia-7-100.jpg",
   },
 ];
+export default contentCards;

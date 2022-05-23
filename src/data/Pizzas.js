@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "../components/ProductCard";
 import { Container, Divider, Grid, Stack, Text } from "@chakra-ui/react";
-import { contentCards } from "./ContentCards";
+import contentCards from "./ContentCards";
 import "../styles/Catalogue.css";
 const result = contentCards.filter((product) => product.category === "Pizzas");
 
@@ -26,7 +26,7 @@ const Pizzas = () => {
               category={product.category}
               description={product.description}
               price={product.price}
-              imgCards={product.IMG}
+              image={product.image}
             />
           ))}
         </Grid>
